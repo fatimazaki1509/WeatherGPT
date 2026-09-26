@@ -555,7 +555,7 @@ The long-term vision is to build a comprehensive climate intelligence ecosystem 
 ## Fatima Zaki
 
 B.Tech Computer Science & Engineering  
-G.H. Raisoni College of Engineering & Management, Nagpur
+G.H. Raisoni College of Engineering  Nagpur
 
 ### Connect
 
