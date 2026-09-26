@@ -219,38 +219,222 @@ Data-driven climate observations and weather intelligence.
 
 ---
 
-# 🏗 System Architecture
+# 🏗️ System Architecture
 
 ```text
-                     ┌─────────────────────┐
-                     │      User UI        │
-                     └──────────┬──────────┘
-                                │
-                                ▼
-                   ┌─────────────────────────┐
-                   │      Next.js App        │
-                   └──────────┬──────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                         USER LAYER                          │
+├─────────────────────────────────────────────────────────────┤
+│ Citizens │ Farmers │ Travelers │ Students │ Authorities     │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    PRESENTATION LAYER                       │
+├─────────────────────────────────────────────────────────────┤
+│ Next.js Frontend Dashboard                                  │
+│ Responsive UI + Interactive Components                      │
+│ AI Weather Assistant                                         │
+│ Weather Maps                                                 │
+│ Multilingual Interface                                       │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    APPLICATION LAYER                        │
+├─────────────────────────────────────────────────────────────┤
+│ Weather Dashboard                                            │
+│ Current Weather Module                                       │
+│ Forecast Module                                              │
+│ Air Quality Module                                           │
+│ Climate Insights Module                                      │
+│ AI Assistant Module                                          │
+│ Travel Planner Module                                        │
+│ Farmer Advisory Module                                       │
+│ Disaster Alert Module                                        │
+│ Risk Assessment Module                                       │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│               WEATHER INTELLIGENCE ENGINE                   │
+├─────────────────────────────────────────────────────────────┤
+│ Forecast Processing Engine                                   │
+│ Weather Impact Score Engine                                  │
+│ Disaster Risk Analysis Engine                                │
+│ AQI Analysis Engine                                          │
+│ Climate Recommendation Engine                                │
+│ Farmer Advisory Engine                                       │
+│ Travel Risk Evaluation Engine                                │
+│ Alert Generation Engine                                      │
+└─────────────────────────────────────────────────────────────┘
                               │
       ┌───────────────────────┼───────────────────────┐
       ▼                       ▼                       ▼
 
-┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-│ OpenWeather │      │ Gemini AI    │      │ GeoLocation  │
-│ API         │      │ Integration  │      │ Services     │
-└──────────────┘      └──────────────┘      └──────────────┘
+┌───────────────┐     ┌───────────────┐     ┌───────────────┐
+│ OpenWeather   │     │ Gemini AI     │     │ Geolocation   │
+│ API           │     │ API           │     │ Services      │
+└───────────────┘     └───────────────┘     └───────────────┘
 
-      ▼                       ▼
-┌──────────────────────────────────────────┐
-│        Weather Intelligence Layer        │
-└──────────────────────────────────────────┘
+      │                       │                       │
+      └───────────────┬───────┴───────────────┬───────┘
+                      ▼                       ▼
 
-      ▼
-┌──────────────────────────────────────────┐
-│ Dashboard • AQI • Alerts • Advisory      │
-└──────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                       DATA LAYER                            │
+├─────────────────────────────────────────────────────────────┤
+│ Current Weather Data                                         │
+│ 5-Day Forecast Data                                          │
+│ Air Quality Data                                             │
+│ Geographical Data                                            │
+│ User Location Data                                           │
+│ AI Generated Insights                                        │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      OUTPUT LAYER                           │
+├─────────────────────────────────────────────────────────────┤
+│ Smart Weather Dashboard                                      │
+│ AI Recommendations                                           │
+│ Farmer Advisories                                            │
+│ Disaster Alerts                                              │
+│ Travel Recommendations                                       │
+│ AQI Monitoring                                               │
+│ Climate Insights                                             │
+│ Weather Risk Scores                                          │
+└─────────────────────────────────────────────────────────────┘
 ```
 
----
+## 🔄 System Workflow
+
+```text
+User Request
+      │
+      ▼
+WeatherGPT Dashboard
+      │
+      ▼
+Weather Service Layer
+      │
+      ├── Current Weather API
+      ├── Forecast API
+      ├── AQI API
+      └── Geolocation API
+                │
+                ▼
+      Weather Intelligence Engine
+                │
+                ├── Risk Analysis
+                ├── Forecast Analysis
+                ├── Advisory Generation
+                ├── Alert Detection
+                └── Travel Evaluation
+                │
+                ▼
+           Gemini AI Layer
+                │
+                ▼
+      AI Insights & Recommendations
+                │
+                ▼
+         Interactive Dashboard
+                │
+                ▼
+               User
+```
+
+## 🧠 AI Assistant Architecture
+
+```text
+User Question
+      │
+      ▼
+AI Assistant Interface
+      │
+      ▼
+Context Collection Layer
+      │
+      ├── Current Weather
+      ├── Forecast Data
+      ├── AQI Data
+      ├── User Location
+      └── Climate Metrics
+      │
+      ▼
+Prompt Engineering Layer
+      │
+      ▼
+Gemini AI
+      │
+      ▼
+Multilingual Response Engine
+      │
+      ▼
+Text + Voice Output
+```
+
+## 🌾 Farmer Advisory Pipeline
+
+```text
+Weather Forecast
+      │
+      ▼
+Agriculture Intelligence Layer
+      │
+      ├── Rain Analysis
+      ├── Temperature Analysis
+      ├── Humidity Analysis
+      └── Risk Detection
+      │
+      ▼
+Crop Recommendation Engine
+      │
+      ▼
+Farmer Advisory Dashboard
+```
+
+## 🚨 Disaster Alert Pipeline
+
+```text
+Weather Conditions
+      │
+      ▼
+Disaster Risk Engine
+      │
+      ├── Flood Detection
+      ├── Cyclone Detection
+      ├── Heatwave Detection
+      ├── Lightning Detection
+      └── Heavy Rain Detection
+      │
+      ▼
+Alert Generation System
+      │
+      ▼
+Real-Time Disaster Alerts
+```
+
+## 🗺️ Weather Map Pipeline
+
+```text
+OpenWeather Map Layers
+        │
+        ├── Rain Layer
+        ├── Wind Layer
+        ├── Temperature Layer
+        ├── Cloud Layer
+        └── Pressure Layer
+                │
+                ▼
+        Interactive Weather Map
+                │
+                ▼
+        Real-Time Visualization
+```
+
+**Tech Stack:** Next.js • TypeScript • Tailwind CSS • OpenWeather API • Gemini AI • Geolocation API • Leaflet Maps • React Markdown • Web Speech API
 
 # 💻 Technology Stack
 
