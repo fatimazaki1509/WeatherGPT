@@ -7,11 +7,9 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
-
 ![IMD](https://img.shields.io/badge/IMD-Weather_Data-orange?style=for-the-badge)
 ![NDMA](https://img.shields.io/badge/NDMA-Disaster_Alerts-red?style=for-the-badge)
 ![Gemini_AI](https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)
-
 ![Status](https://img.shields.io/badge/Status-Prototype-brightgreen?style=for-the-badge)
 
 </div>
