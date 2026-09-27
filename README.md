@@ -6,10 +6,13 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![OpenWeather](https://img.shields.io/badge/OpenWeather-API-orange?style=for-the-badge)
-![Gemini AI](https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Prototype-success?style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+
+![IMD](https://img.shields.io/badge/IMD-Weather_Data-orange?style=for-the-badge)
+![NDMA](https://img.shields.io/badge/NDMA-Disaster_Alerts-red?style=for-the-badge)
+![Gemini_AI](https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)
+
+![Status](https://img.shields.io/badge/Status-Prototype-brightgreen?style=for-the-badge)
 
 </div>
 
@@ -79,6 +82,14 @@ WeatherGPT aims to transform raw weather data into actionable intelligence that 
 
 
 ---
+## Data Sources
+Target Government Integration:
+- India Meteorological Department (IMD)
+- OpenWeather API (Weather Data)
+- Geolocation Services
+- National Disaster Management Authority (NDMA)
+- ISRO Bhuvan
+- CPCB Air Quality Data
 
 # 🚀 Key Features
 
